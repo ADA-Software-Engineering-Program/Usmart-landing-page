@@ -22,6 +22,14 @@
 	width: 200px;
 	height: 100px;
 }
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 20px 0;
+}
 .btn {
 	outline: none;
 	border: none;
