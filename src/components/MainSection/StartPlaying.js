@@ -11,11 +11,11 @@ const StartPlaying = () => {
 	return (
 		<>
 			<section className="new-main-section">
-				<section className="start-playing-section">
+				<section className="start-playing-section" data-aos="fade-right">
 					<div>
 						<img src={phone} alt="phone" />
 					</div>
-					<div className="start-playing-description">
+					<div data-aos="fade-left" className="start-playing-description">
 						<h1 className="start-playing-heading">Start Playing</h1>
 						<p className="start-playing-heading-description">
 							Playing is easy you just have to click start then pick a category,
@@ -30,7 +30,7 @@ const StartPlaying = () => {
 					</div>
 				</section>
 				<h1 className="award-heading">Awards</h1>
-				<div className="awards-container">
+				<div className="awards-container" data-aos="fade-up">
 					<img src={card1} alt="card-1" />
 					<img src={card2} alt="card-2" />
 					<img src={card3} alt="card-3" />

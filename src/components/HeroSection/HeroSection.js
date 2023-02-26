@@ -11,8 +11,8 @@ const HeroSection = () => {
 		<main className="hero-section">
 			<Header />
 			<section className="hero-section-banner">
-				<div>
-					<h1 className="hero-heading">
+				<div data-aos="fade-right">
+					<h1 className="hero-heading ">
 						<span>Compete to Earn the</span> <span>Highest Badge</span>
 					</h1>
 
@@ -31,12 +31,12 @@ const HeroSection = () => {
 						/>
 					</div>
 				</div>
-				<div className="hero-image-section">
+				<div className="hero-image-section" data-aos="fade-left">
 					<img src={three_phones} alt="hero-badge" className="banner-image" />
 					<img src={shadow} alt="hero-badge-shadow" className="shadow" />
 				</div>
 			</section>
-			<section className="hero-section-features">
+			<section className="hero-section-features" data-aos="fade-up">
 				<div>
 					{features.slice(0, 2).map((feat) => (
 						<div>

@@ -8,7 +8,7 @@ const ChooseAvatar = () => {
 	const [animation, setAnimation] = useState(false);
 	return (
 		<section className="choose-avatar-section">
-			<div>
+			<div data-aos="fade-right">
 				<h1 className="choose-avatar-heading">Choose Your Avatar</h1>
 				<p className="choose-avatar-heading-description">
 					Chose the avatar you like and set a name, to have a demo profile page,
@@ -21,6 +21,7 @@ const ChooseAvatar = () => {
 			</div>
 			<div
 				className="avatar-axis-outer"
+				data-aos="fade-left"
 				onMouseEnter={() => setAnimation(true)}
 				onMouseLeave={() =>
 					setTimeout(() => {

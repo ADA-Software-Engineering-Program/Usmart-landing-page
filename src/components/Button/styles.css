@@ -6,6 +6,7 @@
 	width: 200px;
 	cursor: pointer;
 	font-weight: 900;
+	transition: all 0.3 ease;
 }
 .primary-btn {
 	color: #5508b7;
@@ -20,4 +21,10 @@
 	color: black;
 	background-color: #ff8d9b;
 	border: 2px solid white;
+}
+
+.btn:hover {
+	background-color: #ac4cc7;
+	color: white;
+	transform: scale(1.08);
 }
