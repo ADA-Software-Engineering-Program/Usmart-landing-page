@@ -4,7 +4,7 @@ import badge3 from '../assets/badge3.svg';
 export const features = [
 	{
 		title: 'Update',
-		text: 'We Constantly add new questions an update the app version',
+		text: 'We constantly add new questions an release new versions',
 	},
 	{
 		title: '3M+',
@@ -12,25 +12,25 @@ export const features = [
 	},
 	{
 		title: '40k',
-		text: 'See 40k of our user review an experience in the app store',
+		text: 'See 40k of our user reviews andexperience on app stores.',
 	},
 	{
 		title: '24/7',
-		text: 'We are available 24/7 for your questions and ',
+		text: 'We are available 24/7 for your questions and any challenges you may be having. ',
 	},
 ];
 
 export const badges = [
 	{
-		text: 'These are achieved when you get 3 levels in a roll.',
+		text: 'These are achieved when you get 3 levels in a row.',
 		image: badge1,
 	},
 	{
-		text: 'These are achieved when you get 2 levels in a roll.',
+		text: 'These are achieved when you get 2 levels in a row.',
 		image: badge2,
 	},
 	{
-		text: 'These are achieved when you get 1 levels with no error.',
+		text: 'These are achieved when you get 1 level with no wrong answers.',
 		image: badge3,
 	},
 ];
