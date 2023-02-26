@@ -1,13 +1,11 @@
+import Footer from './components/Footer/Footer';
+import HeroSection from './components/HeroSection/HeroSection';
+import MainSection from './components/MainSection/MainSection';
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import MainSection from './components/MainSection';
 
 function App() {
 	return (
 		<div className="App">
-			<Header />
 			<HeroSection />
 			<MainSection />
 			<Footer />

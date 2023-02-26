@@ -1,0 +1,30 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 300px 0 50px;
+	background-color: #c598e8;
+	position: relative;
+	z-index: 0;
+}
+.bg5-img {
+	position: absolute;
+	right: 0;
+	background-size: contain;
+	overflow: hidden;
+	background-size: cover;
+	bottom: 0;
+}
+@media screen and (max-width: 960px) {
+	.footer {
+		padding: 100px 0 50px;
+	}
+	.footer h1 {
+		font-size: 1rem;
+	}
+	.img-logo-footer {
+		margin-left: -86px;
+	}
+}
