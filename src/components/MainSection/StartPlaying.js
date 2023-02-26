@@ -3,7 +3,9 @@ import phone from '../../assets/blank_phone.svg';
 import card1 from '../../assets/card1.svg';
 import card2 from '../../assets/card2.svg';
 import card3 from '../../assets/card3.svg';
+import { badges } from '../../utils/data';
 import { OtherButton } from '../Button/Button';
+import Card from '../Card/Card';
 import ChatSection from './ChatSection';
 import VideoTutorial from './VideoTutorial';
 
@@ -31,9 +33,9 @@ const StartPlaying = () => {
 				</section>
 				<h1 className="award-heading">Awards</h1>
 				<div className="awards-container" data-aos="fade-up">
-					<img src={card1} alt="card-1" />
-					<img src={card2} alt="card-2" />
-					<img src={card3} alt="card-3" />
+					{badges.map((bdg) => (
+						<Card item={bdg} />
+					))}
 				</div>
 				<VideoTutorial />
 				<ChatSection />

@@ -12,13 +12,11 @@ const HeroSection = () => {
 			<Header />
 			<section className="hero-section-banner">
 				<div data-aos="fade-right">
-					<h1 className="hero-heading ">
-						<span>Compete to Earn the</span> <span>Highest Badge</span>
-					</h1>
+					<h1 className="hero-heading">Compete to Earn the Highest Badge</h1>
 
 					<p className="hero-heading-description">
-						<span>Download U-Smart today and play trivia games that will</span>
-						<span>challenge you!</span>
+						Download U-Smart today and play trivia games that will challenge
+						you!
 					</p>
 					<div className="hero-button-container">
 						<PrimaryButton

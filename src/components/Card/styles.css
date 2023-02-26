@@ -1,0 +1,32 @@
+.card-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #630f9d;
+	color: white;
+	text-align: left;
+	padding: 20px 50px;
+	align-items: center;
+	border-radius: 20px;
+	flex: 1;
+}
+.card-container img {
+	width: 200px;
+	height: 200px;
+}
+.card-container p {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+	.card-container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 520px) {
+	.card-container {
+		width: 100%;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}

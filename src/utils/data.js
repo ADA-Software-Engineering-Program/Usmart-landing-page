@@ -1,3 +1,6 @@
+import badge1 from '../assets/badge1.svg';
+import badge2 from '../assets/badge2.svg';
+import badge3 from '../assets/badge3.svg';
 export const features = [
 	{
 		title: 'Update',
@@ -14,5 +17,20 @@ export const features = [
 	{
 		title: '24/7',
 		text: 'We are available 24/7 for your questions and ',
+	},
+];
+
+export const badges = [
+	{
+		text: 'These are achieved when you get 3 levels in a roll.',
+		image: badge1,
+	},
+	{
+		text: 'These are achieved when you get 2 levels in a roll.',
+		image: badge2,
+	},
+	{
+		text: 'These are achieved when you get 1 levels with no error.',
+		image: badge3,
 	},
 ];
