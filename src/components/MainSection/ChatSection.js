@@ -6,7 +6,7 @@ const ChatSection = () => {
 		<section
 			className="chatbox-section"
 			data-aos="fade-up"
-			data-aos-delay="1000"
+			data-aos-delay="700"
 		>
 			<div>
 				<p>Have Questions?</p>
