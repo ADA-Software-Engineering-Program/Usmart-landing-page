@@ -3,7 +3,11 @@ import chat_bubbles from '../../assets/chat_bubbles.svg';
 
 const ChatSection = () => {
 	return (
-		<section className="chatbox-section">
+		<section
+			className="chatbox-section"
+			data-aos="fade-up"
+			data-aos-delay="1000"
+		>
 			<div>
 				<p>Have Questions?</p>
 				<h1 className="chatbox-heading">Chat Us Up</h1>
