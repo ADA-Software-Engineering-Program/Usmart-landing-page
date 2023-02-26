@@ -170,6 +170,8 @@
 		padding: 0 2.5rem;
 	}
 	.chatbox-section {
+		margin-top: 100px;
+		margin-bottom: 50px;
 		position: static;
 		width: 100%;
 		padding: 100px 4.5rem;
@@ -195,6 +197,23 @@
 }
 @media screen and (max-width: 475px) {
 	.avatar-axis-outer {
-		margin-left: -37px;
+		height: 300px;
+		width: 300px !important;
+	}
+	.avatar-axis {
+		height: 250px;
+		width: 250px !important;
+	}
+	.avatar-1 {
+		left: 20px;
+		top: -15px;
+	}
+	.avatar-2 {
+		left: 183px;
+		top: 85px;
+	}
+	.avatar-3 {
+		left: 20px;
+		bottom: -20px;
 	}
 }

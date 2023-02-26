@@ -12,7 +12,7 @@ const HeroSection = () => {
 			<Header />
 			<section className="hero-section-banner">
 				<div data-aos="fade-right">
-					<h1 className="hero-heading">
+					<h1 className="hero-heading ">
 						<span>Compete to Earn the</span> <span>Highest Badge</span>
 					</h1>
 
