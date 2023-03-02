@@ -3,11 +3,11 @@ import ChooseAvatar from './ChooseAvatar';
 import StartPlaying from './StartPlaying';
 import './styles.css';
 
-const MainSection = () => {
+const MainSection = ({ isChatBotVisible }) => {
 	return (
 		<section className="main-section-bg">
 			<ChooseAvatar />
-			<StartPlaying />
+			<StartPlaying isChatBotVisible={isChatBotVisible} />
 		</section>
 	);
 };

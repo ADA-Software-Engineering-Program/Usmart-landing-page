@@ -6,7 +6,7 @@ import Card from '../Card/Card';
 import ChatSection from './ChatSection';
 import VideoTutorial from './VideoTutorial';
 
-const StartPlaying = () => {
+const StartPlaying = ({ isChatBotVisible }) => {
 	return (
 		<>
 			<section className="new-main-section">
@@ -36,8 +36,7 @@ const StartPlaying = () => {
 					))}
 				</div>
 				<VideoTutorial />
-				<ChatSection />
-				{/* <ChatIcon /> */}
+				<ChatSection isChatBotVisible={isChatBotVisible} />
 			</section>
 		</>
 	);
