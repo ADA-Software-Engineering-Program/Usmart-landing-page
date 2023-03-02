@@ -4,7 +4,7 @@ import badge3 from '../assets/badge3.svg';
 export const features = [
 	{
 		title: 'Update',
-		text: 'We constantly add new questions an release new versions',
+		text: 'We constantly add new questions and release new versions',
 	},
 	{
 		title: '3M+',
@@ -12,11 +12,11 @@ export const features = [
 	},
 	{
 		title: '40k',
-		text: 'See 40k of our user reviews andexperience on app stores.',
+		text: 'See 40k of our user reviews and experience on app stores.',
 	},
 	{
 		title: '24/7',
-		text: 'We are available 24/7 for your questions and any challenges you may be having. ',
+		text: 'We are available 24/7 for your questions and any challenges you may be having.',
 	},
 ];
 

@@ -41,8 +41,7 @@
 .hero-button-container {
 	margin: 70px 0 30px;
 	display: flex;
-	width: 90%;
-	justify-content: space-between;
+	gap: 3rem;
 }
 .hero-heading {
 	display: flex;
@@ -99,5 +98,10 @@
 	}
 	.hero-heading {
 		font-size: 28px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.hero-button-container {
+		flex-direction: column;
 	}
 }

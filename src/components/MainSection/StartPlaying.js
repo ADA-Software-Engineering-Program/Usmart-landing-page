@@ -22,8 +22,8 @@ const StartPlaying = () => {
 							along the way.
 						</p>
 						<p className="start-playing-heading-description">
-							There are various categories you can pick from, go ahead and
-							select whatever you want. Play as many times as you want from
+							There are various categories you can pick from, so go ahead and
+							select whichever you want. Play as many times as you like from
 							different categories.
 						</p>
 						<OtherButton text="Play Game" />

@@ -11,11 +11,11 @@ const ChooseAvatar = () => {
 			<div data-aos="fade-right">
 				<h1 className="choose-avatar-heading">Choose Your Avatar</h1>
 				<p className="choose-avatar-heading-description">
-					Chose the avatar you like and set a name, to have a demo profile page,
-					here all your scores and achievements are saved.
+					Choosse the avatar you like and set your name to have a profile page.
+					Here, all your scores and achievements are saved.
 				</p>
 				<p className="choose-avatar-heading-description">
-					You can save and share your profile and achievements to friends ans on
+					You can save and share your profile and achievements to friends and on
 					social media.
 				</p>
 			</div>
