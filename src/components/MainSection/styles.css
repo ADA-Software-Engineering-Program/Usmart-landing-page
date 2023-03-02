@@ -131,6 +131,7 @@
 
 .chatbox-section {
 	position: absolute;
+	cursor: pointer;
 	bottom: -100px;
 	z-index: 1;
 	left: 0;
@@ -158,10 +159,37 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.chat_section_sticky_icon:hover {
+	background-color: white;
+}
+.chat_section_sticky_chatpage {
+	width: 500px;
+	height: 500px;
+	border-radius: 20px;
+	background-color: white;
+}
+.chatbot_container {
+	z-index: 999;
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
 }
 .chat_section_sticky_icon img {
 	width: 100%;
 	height: 100%;
+}
+.cancel_chatbot {
+	position: absolute;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	top: -28px;
+	padding: 7px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #fffdfd;
 }
 @media screen and (max-width: 960px) {
 	.new-main-section {
@@ -207,6 +235,9 @@
 		}
 		.video-heading {
 			font-size: 28px;
+		}
+		.chat_section_sticky_chatpage {
+			width: 300px;
 		}
 	}
 }

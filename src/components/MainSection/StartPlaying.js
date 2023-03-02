@@ -3,7 +3,7 @@ import phone from '../../assets/blank_phone.svg';
 import { badges } from '../../utils/data';
 import { OtherButton } from '../Button/Button';
 import Card from '../Card/Card';
-import ChatSection, { ChatIcon } from './ChatSection';
+import ChatSection from './ChatSection';
 import VideoTutorial from './VideoTutorial';
 
 const StartPlaying = () => {
@@ -37,7 +37,7 @@ const StartPlaying = () => {
 				</div>
 				<VideoTutorial />
 				<ChatSection />
-				<ChatIcon />
+				{/* <ChatIcon /> */}
 			</section>
 		</>
 	);
