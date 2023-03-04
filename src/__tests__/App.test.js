@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
+import 'intersection-observer';
 import App from '../App';
 
 test('renders "Trivia" text', () => {
