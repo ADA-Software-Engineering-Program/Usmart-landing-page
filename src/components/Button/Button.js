@@ -4,7 +4,7 @@ import './styles.css';
 export const PrimaryButton = ({ text }) => {
 	return (
 		<button className="primary-btn btn">
-			<a href="/public/usmart-apk.apk" download>
+			<a href="/usmart-apk.apk" download>
 				{text}
 			</a>
 		</button>
@@ -20,7 +20,7 @@ export const TransparentButton = ({ text }) => {
 export const OtherButton = ({ text }) => {
 	return (
 		<button className="other-btn btn">
-			<a href="/public/usmart-apk.apk" download>
+			<a href="/usmart-apk.apk" download>
 				{text}
 			</a>
 		</button>
