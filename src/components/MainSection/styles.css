@@ -262,6 +262,16 @@
 		left: 20px;
 		bottom: -20px;
 	}
+	.video-heading {
+		font-size: 20px;
+	}
+	.chat_bubbles {
+		bottom: 15px;
+	}
+	.chat_bubbles img {
+		width: 50%;
+		height: 50%;
+	}
 }
 @media screen and (max-width: 900px) {
 	.awards-container {

@@ -9,7 +9,7 @@ import VideoTutorial from './VideoTutorial';
 const StartPlaying = ({ isChatBotVisible }) => {
 	return (
 		<>
-			<section className="new-main-section">
+			<section id="start-playing" className="new-main-section">
 				<section className="start-playing-section" data-aos="fade-right">
 					<div>
 						<img src={phone} alt="phone" />
