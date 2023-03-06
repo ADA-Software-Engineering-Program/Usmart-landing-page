@@ -4,7 +4,10 @@ import './styles.css';
 export const PrimaryButton = ({ text }) => {
 	return (
 		<button className="primary-btn btn">
-			<a href="/usmart-apk.apk" download>
+			<a
+				href="https://firebasestorage.googleapis.com/v0/b/usmart-baff2.appspot.com/o/usmart-apk.apk?alt=media&token=15c4eddf-cd0b-48b1-b333-0c8ffb1fc2af"
+				download
+			>
 				{text}
 			</a>
 		</button>
@@ -20,7 +23,10 @@ export const TransparentButton = ({ text }) => {
 export const OtherButton = ({ text }) => {
 	return (
 		<button className="other-btn btn">
-			<a href="/usmart-apk.apk" download>
+			<a
+				href="https://firebasestorage.googleapis.com/v0/b/usmart-baff2.appspot.com/o/usmart-apk.apk?alt=media&token=15c4eddf-cd0b-48b1-b333-0c8ffb1fc2af"
+				download
+			>
 				{text}
 			</a>
 		</button>
