@@ -15,9 +15,11 @@
 }
 
 .img-logo {
-	width: 150px;
+	/* width: 150px;
 	height: 150px;
+	margin-top: -35px; */
 	margin-top: -35px;
+	margin-left: -59px;
 }
 @media screen and (max-width: 960px) {
 	.header {
