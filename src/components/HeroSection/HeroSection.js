@@ -54,12 +54,12 @@ const HeroSection = ({ setIsChatBotVisible }) => {
 						/>
 					</div>
 				</div>
-				<div className="hero-image-section" data-aos="fade-left">
+				<div className="hero-image-section">
 					<img src={three_phones} alt="hero-badge" className="banner-image" />
 					<img src={shadow} alt="hero-badge-shadow" className="shadow" />
 				</div>
 			</section>
-			<section className="hero-section-features" data-aos="fade-up">
+			<section className="hero-section-features">
 				<div>
 					{features.slice(0, 2).map((feat) => (
 						<div>

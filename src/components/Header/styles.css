@@ -10,13 +10,16 @@
 }
 .header--scrolled {
 	padding: 1rem 2.5rem;
-	background-color: #9e40a9;
+	background-color: #f2c9f7;
+	/* background-color: #9e40a9; */
 }
 
 .img-logo {
-	width: 150px;
+	/* width: 150px;
 	height: 150px;
+	margin-top: -35px; */
 	margin-top: -35px;
+	margin-left: -59px;
 }
 @media screen and (max-width: 960px) {
 	.header {

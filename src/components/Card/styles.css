@@ -1,8 +1,7 @@
 .card-container {
 	display: flex;
 	flex-direction: column;
-	background-color: #630f9d;
-	color: white;
+	background-color: #ba55d3;
 	text-align: left;
 	padding: 20px 50px;
 	align-items: center;

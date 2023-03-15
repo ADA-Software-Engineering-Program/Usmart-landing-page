@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import YouTube from 'react-youtube';
-import videobox from '../../assets/videobox.svg';
+import videobox from '../../assets/new-vidbox.svg';
 
 const VideoTutorial = () => {
 	const [isYoutube, setIsYoutube] = useState(false);
