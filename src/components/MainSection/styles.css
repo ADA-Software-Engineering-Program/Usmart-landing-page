@@ -140,7 +140,8 @@
 	width: 80%;
 	margin: auto;
 	border-radius: 15px;
-	background-color: rgba(69, 9, 106, 0.8);
+	background-color: #ba55d3;
+	/* background-color: rgba(69, 9, 106, 0.8); */
 	display: flex;
 	align-items: center;
 	color: white;
