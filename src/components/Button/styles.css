@@ -13,13 +13,13 @@
 	background-color: white;
 }
 .transparent-btn {
-	color: white;
+	color: #c164d7;
 	background-color: transparent;
 	border: 2px solid #813789;
 }
 .other-btn {
 	color: black;
-	background-color: #ff8d9b;
+	background-color: #ba55d3;
 	border: 2px solid white;
 }
 

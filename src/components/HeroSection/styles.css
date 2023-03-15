@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	padding: 100px 0;
-	background-image: url('../../assets/bg-img2.png');
+	background-image: url('../../assets/new-bg-img2.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
@@ -19,14 +19,13 @@
 .hero-section-banner > div {
 	width: 50%;
 	text-align: left;
-	color: white;
+	/* color: white; */
 }
 .hero-section-features {
 	display: flex;
 	gap: 2rem;
 	margin-top: 100px;
 	padding: 0 4.5rem;
-	color: white;
 }
 .hero-section-features > div {
 	text-align: left;
